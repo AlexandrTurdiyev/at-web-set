@@ -1,0 +1,9 @@
+:root {
+    --field-bg-color: #def3ff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
