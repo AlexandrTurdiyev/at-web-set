@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>background-slider-option-1</title>
-    <link rel="stylesheet" href="styles/style.css"> 
+    <link rel="preload" as="image" href="/images/background-image-1-lowers.webp">
+    <link rel="preload" as="image" href="/images/background-image-2-lowers.webp">
+    <link rel="preload" as="image" href="/images/background-image-3-lowers.webp">
+    <link rel="preload" as="image" href="/images/background-image-4-lowers.webp">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <div class="background-container">
+        <div class="slide slide-1">
+            <div class="background slide__1-low low-quality" style="background-image: url('/images/background-image-1-lowers.webp');"></div>
+            <div class="background slide__1 high-quality" style="background-image: url('/images/background-image-1.webp');"></div>
+        </div>
+        <div class="slide slide-2">
+            <div class="background slide__2-low low-quality" style="background-image: url('/images/background-image-2-lowers.webp');"></div>
+            <div class="background slide__2 high-quality" style="background-image: url('/images/background-image-2.webp');"></div>
+        </div>
+        <div class="slide slide-3">
+            <div class="background slide__3-low low-quality" style="background-image: url('/images/background-image-3-lowers.webp');"></div>
+            <div class="background slide__3 high-quality" style="background-image: url('/images/background-image-3.webp');"></div>
+        </div>
+        <div class="slide slide-4">
+            <div class="background slide__4-low low-quality" style="background-image: url('/images/background-image-4-lowers.webp');"></div>
+            <div class="background slide__4 high-quality" style="background-image: url('/images/background-image-4.webp');"></div>
+        </div>
+    </div>
     <script src="scripts/script.js"></script>
 </body>
 </html>
