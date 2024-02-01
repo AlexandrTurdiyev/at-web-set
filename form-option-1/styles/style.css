@@ -1,3 +1,7 @@
+:root {
+    --field-bg-color: #def3ff;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -55,7 +59,7 @@ legend {
     padding: 2rem;
     -webkit-box-shadow: 0px 0px 15px 0px rgba(173,225,255,1);
     -moz-box-shadow: 0px 0px 15px 0px rgba(173,225,255,1);
-    box-shadow: 0px 0px 15px 0px rgba(173,225,255,1);
+    box-shadow: 0px 0px 15px 0px #ade1ff;
 }
 
 .form__title-text {
@@ -104,7 +108,7 @@ legend {
     height: 2.5rem;
     border: none;
     border-radius: 10px;
-    background-color: #EEEEEE;
+    background-color: var(--field-bg-color);
     padding: 0.75rem;
 }
 
@@ -112,7 +116,7 @@ legend {
     width: 33rem;
     border: none;
     border-radius: 10px;
-    background-color: #EEEEEE;
+    background-color: var(--field-bg-color);
     padding: 0.75rem;
 }
 
@@ -132,4 +136,15 @@ legend {
     border-radius: 10px;
     width: 8rem;
     height: 3rem;
+    transition: all .3s ease-in-out;
 }
+/* 
+.form__button:hover {
+    transform: translate(2px 2px);
+    box-shadow: 2px 2px 0.5rem #a4a4a4;
+} */
+
+.form__button:hover {
+    transform: translate(2px 2px);
+    box-shadow: 2px 2px 0.5rem #a4a4a4;
+} */
